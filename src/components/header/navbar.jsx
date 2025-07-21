@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+    let id = "#home"
   return (
-    <div className="navbar bg-white px-[20px] md:px-[60px] py-[20px] z-1000 shadow-sm">
+    <div className="navbar bg-white px-[20px] md:px-[60px] py-[20px] z-1000 shadow-sm fixed top-0">
         <div className="navbar-start">
             <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,13 +14,13 @@ function Navbar() {
                     tabIndex={0}
                     className="menu menu-md dropdown-content rounded-box z-1 mt-3 w-52 p-2 bg-white shadow-sm">
                     <li>
-                        <Link to='/'>Home</Link>
+                        <Link to={`/`}>Home</Link>
                     </li>
                     <li>
                         <Link to='/collection'>Collection</Link>
                     </li>
                     <li className="block sm:hidden">
-                        <a>Contact</a>
+                        <a href='#footer-section'>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -28,13 +29,13 @@ function Navbar() {
         <div className="navbar-end hidden lg:flex items-center">
             <ul className="menu text-base menu-horizontal px-1 gap-[30px]">
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to={`/`}>Home</Link>
                 </li>
                 <li>
                     <Link to='/collection'>Collection</Link>
                 </li>
                 <li>
-                    <a href="" className="border-[#BA84FE] text-[#BA84FE] rounded-xl font-bold border-1 px-[12px] py-[8px] hover:bg-[#BA84FE] hover:text-white">
+                    <a href="#footer-section" className="border-[#BA84FE] text-[#BA84FE] rounded-xl font-bold border-1 px-[12px] py-[8px] hover:bg-[#BA84FE] hover:text-white">
                         Contact
                     </a>
                 </li>

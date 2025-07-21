@@ -2,12 +2,12 @@ import React from 'react'
 
 function BookDetail() {
   return (
-    <div className="h-[100vh] mx-[20px] md:mx-[60px] mt-[40px] lg:mt-[80px]">
+    <div className="min-h-[100vh] mx-[20px] md:mx-[60px] mt-[128px] md:mt-[158px] mb-[58px] md:mb-0">
         <h6 className="font-bold text-[#483D89] text-[24px] md:text-[30px] mb-[30px]">Book Detail</h6>
         <div className="flex flex-col md:flex-row md:gap-[115px] items-start">
             <img src="./bear.jpg" className="w-[230px] sm:w-[280px] lg:w-[360px] rounded-[30px]" />
             <div className="book-info lg:w-[550px] text-sm md:text-base">
-                <h6 className="book-title font-bold mb-[18px] text-[30px] md:text-[40px] mt-[26px] md:mt-0">
+                <h6 className="book-title font-bold mb-[18px] text-[28px] md:text-[40px] mt-[26px] md:mt-0">
                     Benny and the Strength Within
                 </h6>
                 <div className="book-detail flex mb-[26px]">

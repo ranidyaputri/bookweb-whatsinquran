@@ -2,8 +2,16 @@
 @plugin "daisyui" {
    themes: false;
 }
+html{
+   scroll-behavior: smooth;
+}
 body{
    font-family: "Plus Jakarta Sans", sans-serif;
    background-color: #F5F2FA;
    color: #3C3A3A;
+}
+.trapezoid-background {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  color: white;
+  padding: 50px;
 }

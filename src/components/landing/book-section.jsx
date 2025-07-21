@@ -76,24 +76,23 @@ function Book() {
     </div>
 
     <div className="book-language mb-[170px]">
-        <div className="bg relative">
-            <img src="./rectangle.svg" className="w-full h-fit"/>
-            <div className="flex justify-between items-stretch w-full absolute bottom-10 lg:bottom-0 px-[20px] lg:px-[155px]">
-                <div className="bookshelf-img hidden lg:block">
-                    <img src="./bookshelf-image.svg" className="w-30 sm:w-50 lg:w-60 xl:w-full" />
+        <div className="trapezoid-background relative max-lg:h-[600px] lg:min-h-[720px] bg-[#33187A]">
+            <div className="flex justify-center lg:justify-between items-center w-full px-[20px]">
+                <div className="bookshelf-img hidden lg:block absolute bottom-0 left-[120px]">
+                    <img src="./bookshelf-image.svg" className="lg:w-70 xl:w-full" />
                 </div>
-                <div className="text-section lg:w-[412px] text-center text-white">
-                    <h1 className="font-bold text-[30px] lg:text-[50px] mb-[24px]">One Collection, Many Languages</h1>
+                <div className="lg:w-[412px] absolute z-2 bottom-[120px] lg:bottom-[200px] lg:right-[155px] max-lg:px-[50px] text-center text-white">
+                    <h1 className="font-bold text-[26px] md:text-[40px] lg:text-[50px] mb-[24px]">One Collection, Many Languages</h1>
                     <p className="mb-[49px]">
                         Explore Our Books in Malay, English, Indonesian, Arabic, and Japanese
                     </p>
                     <div className="flex justify-center">
                         <div className="flag-img flex gap-[9px] w-fit justify-center rounded-[50px] bg-white px-[21px] py-[7px]">
-                            <img src="./united-kingdom.png" className="w-[30px] lg:w-[64px]" />
-                            <img src="./malaysia.png" className="w-[30px] lg:w-[64px]" />
-                            <img src="./indonesia.png" className="w-[30px] lg:w-[64px]" />
-                            <img src="./japan.png" className="w-[30px] lg:w-[64px]" />
-                            <img src="./saudi-arabia.png" className="w-[30px] lg:w-[64px]" />
+                            <img src="./united-kingdom.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./malaysia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./indonesia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./japan.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./saudi-arabia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
                         </div>
                     </div>
                 </div>
