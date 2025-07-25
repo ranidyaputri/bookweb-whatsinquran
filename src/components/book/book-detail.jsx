@@ -10,7 +10,7 @@ function BookDetail() {
                 <h6 className="book-title font-bold mb-[18px] text-[28px] md:text-[40px] mt-[26px] md:mt-0">
                     Benny and the Strength Within
                 </h6>
-                <div className="book-detail flex mb-[26px]">
+                <div className="book-detail flex mb-[26px] text-sm md:text-base">
                     <div className="book-author mr-[40px]">
                         <p className="text-gray-400 mb-2">Author(s)</p>
                         <p className="">

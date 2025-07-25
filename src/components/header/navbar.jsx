@@ -14,25 +14,25 @@ function Navbar() {
                     tabIndex={0}
                     className="menu menu-md dropdown-content rounded-box z-1 mt-3 w-52 p-2 bg-white shadow-sm">
                     <li>
-                        <Link to={`/`}>Home</Link>
+                        <Link to={`/`} onClick={() => window.scrollTo(0, 0)}>Home</Link>
                     </li>
                     <li>
-                        <Link to='/collection'>Collection</Link>
+                        <Link to='/collection' onClick={() => window.scrollTo(0, 0)}>Collection</Link>
                     </li>
                     <li className="block sm:hidden">
                         <a href='#footer-section'>Contact</a>
                     </li>
                 </ul>
             </div>
-            <a className="font-light ml-[20px] lg:ml-0 text-xl md:text-[30px]">whatsin<span className="font-bold text-[#483D89]">quran</span></a>
+            <Link to={`/`} onClick={() => window.scrollTo(0, 0)} className="font-light ml-[20px] lg:ml-0 text-xl md:text-[30px]">whatsin<span className="font-bold text-[#483D89]">quran</span></Link>
         </div>
         <div className="navbar-end hidden lg:flex items-center">
             <ul className="menu text-base menu-horizontal px-1 gap-[30px]">
                 <li>
-                    <Link to={`/`}>Home</Link>
+                    <Link to={`/`} onClick={() => window.scrollTo(0, 0)}>Home</Link>
                 </li>
                 <li>
-                    <Link to='/collection'>Collection</Link>
+                    <Link to='/collection' onClick={() => window.scrollTo(0, 0)}>Collection</Link>
                 </li>
                 <li>
                     <a href="#footer-section" className="border-[#BA84FE] text-[#BA84FE] rounded-xl font-bold border-1 px-[12px] py-[8px] hover:bg-[#BA84FE] hover:text-white">
@@ -42,7 +42,7 @@ function Navbar() {
             </ul>
         </div>
         <div className="navbar-end hidden sm:flex lg:hidden">
-            <a href="" className="border-[#BA84FE] text-[#BA84FE] rounded-xl font-bold border-1 px-[12px] py-[8px] hover:bg-[#BA84FE] hover:text-white">
+            <a href="#footer-section" className="border-[#BA84FE] text-[#BA84FE] rounded-xl font-bold border-1 px-[12px] py-[8px] hover:bg-[#BA84FE] hover:text-white">
                 Contact
             </a>
         </div>

@@ -4,12 +4,12 @@ function Footer() {
   return (
     <>
     <div id="footer-section">
-        <div className="bg-[#33187A] text-white px-[40px] md:px-[80px] py-[86px] rounded-t-[50px]">
+        <div className="bg-[#33187A] text-white px-[40px] md:px-[80px] py-[86px] rounded-t-[50px] mt-[70px] md:mt-0">
             <div className="footer-text w-full flex flex-col sm:flex-row justify-between sm:items-center">
                 <p className="text-[30px] md:text-[40px] mb-[20px] md:mb-0 font-bold w-[260px]">
                     Contact Us For More Info
                 </p>
-                <div className="contact-list text-base">
+                <div className="contact-list text-sm md:text-base">
                     <p>What's in Quran Contacts</p>
                     <div className="flex items-center mt-[22px] mb-[12px]">
                         <svg xmlns="http://www.w3.org/2000/svg" width={30} height={30} viewBox="0 0 24 24">

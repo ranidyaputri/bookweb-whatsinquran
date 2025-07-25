@@ -32,7 +32,7 @@ function BookCollection() {
           <h4 className="font-bold text-[30px] mb-[20px] text-[#483D89]">
             Filter by Language Category
           </h4>
-          <div className="language-list flex gap-[20px] overflow-x-auto">
+          <div className="language-list flex gap-[20px] overflow-x-auto text-sm md:text-base">
             <button className="btn text-[#483D89] border-1 border-[#483D89] rounded-[10px] hover:bg-[#BA84FE] hover:border-[#BA84FE] hover:text-white active:bg-[#BA84FE]">
               All
             </button>

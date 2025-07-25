@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Book() {
   return (
@@ -11,14 +12,14 @@ function Book() {
                     <h4 className="font-extrabold text-[26px] md:text-[30px] text-[#33187A] mb-[18px]">
                         Explore the wisdom in every page
                     </h4>
-                    <p className="mb-[18px] md:mb-0">
+                    <p className="mb-[18px] md:mb-0 text-sm md:text-base">
                         Explore curated books that offer stories, thoughtful reflections, and meaningful lessons.
                     </p>
                 </div>
-                <div className="mt-[18px] md:mt-0">
-                    <a href="" className="px-[12px] py-[10px] rounded-[10px] font-semibold bg-[#BA84FE] text-white">
-                        Browse All Books
-                    </a>
+                <div className="">
+                    <Link to={`/collection`} onClick={() => window.scrollTo(0, 0)} className="btn px-[12px] py-[10px] border-0 rounded-[10px] font-semibold bg-[#BA84FE] text-white text-sm md:text-base">
+                        Browse All
+                    </Link>
                 </div>
             </div>
             {/* card */}
