@@ -1,4 +1,5 @@
 import React from 'react'
+import datas from '../../../src/data/books.json'
 
 function BookCollection() {
   return (
@@ -56,54 +57,20 @@ function BookCollection() {
 
         {/* book list */}
         <div className="card-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-[20px] mb-[130px]">
-            {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
-                {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
-                {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
-                {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
+          {datas && datas.map(({id, title, img, author}) => (
+            <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
+              <figure className="px-[10px] py-[10px]">
+                <img src={`./book-img/${img}`} className="rounded-xl" />
+              </figure>
+              <div className="card-body max-sm:p-[8px]">
+                <h2 className="card-title sm:line-clamp-1">{title}</h2>
+                <p className="book-author text-gray-400">
+                  Author: {author}
+                </p>
+              </div>
+            </a>
+          ))
+          }
         </div>
     </div>
   )

@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
-    let id = "#home"
   return (
     <div className="navbar bg-white px-[20px] md:px-[60px] py-[20px] z-1000 shadow-sm fixed top-0">
         <div className="navbar-start">
@@ -24,7 +23,7 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-            <Link to={`/`} onClick={() => window.scrollTo(0, 0)} className="font-light ml-[20px] lg:ml-0 text-xl md:text-[30px]">whatsin<span className="font-bold text-[#483D89]">quran</span></Link>
+            <Link to={`/`} onClick={() => window.scrollTo(0, 0)} className="font-light ml-[20px] lg:ml-0 text-xl md:text-[30px]">whatsin<span className="font-bold text-[#483D89]">Quran</span></Link>
         </div>
         <div className="navbar-end hidden lg:flex items-center">
             <ul className="menu text-base menu-horizontal px-1 gap-[30px]">

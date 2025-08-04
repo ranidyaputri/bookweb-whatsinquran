@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import datas from '../../../src/data/books.json'
 
 function Book() {
-  return (
+    return (
     <>
     <div className="book-section mt-[140px] mx-[20px] md:mx-[60px]">
         <div className="book-preview mb-[140px]">
@@ -22,56 +23,24 @@ function Book() {
                     </Link>
                 </div>
             </div>
+
             {/* card */}
             <div className="card-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-[20px]">
-                {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
-                {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
-                {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
-                {/* card */}
-                <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                    <figure className="px-[10px] py-[10px]">
-                        <img src="./bear.jpg" className="rounded-xl" />
-                    </figure>
-                    <div className="card-body max-sm:p-[8px]">
-                        <h2 className="card-title sm:line-clamp-1">Benny and the Strength Within</h2>
-                        <p className="book-author text-gray-400">
-                            Author: Aliya, Farwizah, Rajihah
-                        </p>
-                    </div>
-                </a>
+                {datas && datas.slice(0,4).map(({id, title, author, img}) =>
+                (
+                    <a href='#' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
+                        <figure className="px-[10px] py-[10px]">
+                            <img src={`./book-img/${img}`} className="rounded-xl" />
+                        </figure>
+                        <div className="card-body max-sm:p-[8px]">
+                            <h2 className="card-title sm:line-clamp-1">{title}</h2>
+                            <p className="book-author text-gray-400">
+                                {author}
+                            </p>
+                        </div>
+                    </a>
+                )) 
+                }
             </div>
         </div>
     </div>
@@ -89,11 +58,11 @@ function Book() {
                     </p>
                     <div className="flex justify-center">
                         <div className="flag-img flex gap-[9px] w-fit justify-center rounded-[50px] bg-white px-[21px] py-[7px]">
-                            <img src="./united-kingdom.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
-                            <img src="./malaysia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
-                            <img src="./indonesia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
-                            <img src="./japan.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
-                            <img src="./saudi-arabia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./flag-img/united-kingdom.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./flag-img/malaysia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./flag-img/indonesia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./flag-img/japan.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
+                            <img src="./flag-img/saudi-arabia.png" className="w-[30px] sm:w-[48px] lg:w-[64px]" />
                         </div>
                     </div>
                 </div>

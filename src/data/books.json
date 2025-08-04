@@ -1,0 +1,228 @@
+
+    [
+        {
+        "id": 1,
+        "title": "Benny and the Strength Within",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "eng-bear.jpg",
+        "synopsis": "Benny the bear feels shy because of his size and serious face. But with the support of Milo the monkey and other friends, Benny discovers that what makes him different is also what makes him strong. A heartwarming story about self-acceptance, friendship, and the power of believing in yourself.",
+        "language": "English",
+        "book_link": "https://heyzine.com/flip-book/ad3c46075b.html"
+        },
+        {
+        "id": 2,
+        "title": "Coco's Colourful Emotions",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "eng-coco.jpg",
+        "synopsis": "Coco the chameleon experiences many emotions joy, anger, fear, and sadness—as he explores the jungle. With the help of friends and trust in Allah, Coco learns how to understand and manage his feelings. A colorful journey into emotional awareness, faith, and friendship.",
+        "language": "English",
+        "book_link": "https://heyzine.com/flip-book/643910d666.html"
+        },
+        {
+        "id": 3,
+        "title": "Leo the Arrogant Lion",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "eng-lion.jpg",
+        "synopsis": "Leo, the proud lion, always brags and scares others. But when Ruby the clever rabbit challenges him to a game, Leo learns that cleverness and kindness matter more than pride. A fun and thoughtful story that teaches humility and reminds us what true greatness really means.",
+        "language": "English",
+        "book_link": "https://heyzine.com/flip-book/45ae7e4ad3.html"
+        },
+        {
+        "id": 4,
+        "title": "Ruby's Missing Scarf",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "eng-scarf.jpg",
+        "synopsis": "When Ruby the rabbit loses her favorite red scarf, she feels very sad. Together with Tia the tortoise and Omar the owl, Ruby learns about patience, trust in Allah, and the power of friendship. A gentle story full of hope, sabr, and heartfelt lessons.",
+        "language": "English",
+        "book_link": "https://heyzine.com/flip-book/4598c6105e.html"
+        },
+        {
+        "id": 5,
+        "title": "The Ungrateful Monkey",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "eng-monkey.jpg",
+        "synopsis": "Milo complains about eating bananas every day until a storm destroys the banana trees. As he reflects on his actions, Milo learns to be thankful for what he has. A meaningful story about gratitude, contentment, and recognizing the blessings around us.",
+        "language": "English",
+        "book_link": "https://heyzine.com/flip-book/508016dd4c.html"
+        },
+        {
+        "id": 6,
+        "title": "Benny dan Kehebatannya",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "my-bear.jpg",
+        "synopsis": "Benny si beruang berasa rendah diri kerana saiznya yang besar dan wajahnya yang serius. Namun dengan sokongan Milo si monyet dan rakan-rakan lain, Benny belajar bahawa keunikannya adalah kekuatannya. Kisah menyentuh tentang penerimaan diri dan persahabatan sejati.",
+        "language": "Malaysian",
+        "book_link": "https://heyzine.com/flip-book/7900001d95.html"
+        },
+        {
+        "id": 11,
+        "title": "Coco si Warna-Warni",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "my-coco.jpg",
+        "synopsis": "Coco si sesumpah merasai pelbagai emosi semasa meneroka hutan. Dengan bantuan rakan-rakan dan kebergantungan kepada Allah, Coco belajar mengenali dan mengurus emosinya. Perjalanan berwarna-warni yang mengajar tentang perasaan, iman, dan sokongan rakan.",
+        "language": "Malaysian",
+        "book_link": "https://heyzine.com/flip-book/f0c968c3aa.html"
+        },
+        {
+        "id": 12,
+        "title": "Leo Singa yang Sombong",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "my-lion.jpg",
+        "synopsis": "Leo si singa sering membangga diri dan menakutkan haiwan lain. Ruby si arnab bijak mencabarnya bermain sorok-sorok. Dalam permainan itu, Leo belajar bahawa kebijaksanaan dan kebaikan lebih bermakna daripada kesombongan. Kisah lucu dengan pengajaran tentang rendah hati.",
+        "language": "Malaysian",
+        "book_link": "https://heyzine.com/flip-book/9d668a28c5.html"
+        },
+        {
+        "id": 13,
+        "title": "Monyet yang Tidak Bersyukur",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "my-monkey.jpg",
+        "synopsis": "Milo jemu makan pisang setiap hari, sehingga ribut melanda dan memusnahkan pokok pisang. Milo mula sedar betapa dia kurang bersyukur. Dia menanam pokok baru dan belajar menghargai nikmat dari Allah. Cerita tentang syukur, keinsafan, dan kebahagiaan.",
+        "language": "Malaysian",
+        "book_link": "https://heyzine.com/flip-book/18726aa8ad.html"
+        },
+        {
+        "id": 14,
+        "title": "Skarf Ruby yang Hilang",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "my-scarf.jpg",
+        "synopsis": "Ruby si arnab kehilangan skaf merah kesayangannya dan berasa sedih. Bersama Tia si kura-kura dan Omar si burung hantu, mereka mencari sambil belajar tentang sabar, tawakal, dan pentingnya persahabatan. Kisah yang lembut dan penuh pengajaran.",
+        "language": "Malaysian",
+        "book_link": "https://heyzine.com/flip-book/4a0f8a9216.html"
+        },
+        {
+        "id": 15,
+        "title": "Benny dan Kekuatan dalam Dirinya",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "id-bear.jpg",
+        "synopsis": "Benny si beruang merasa malu karena tubuhnya besar dan wajahnya serius. Namun dengan dukungan Milo si monyet dan teman-temannya, Benny menyadari bahwa perbedaan dirinya adalah kekuatannya. Kisah menyentuh tentang menerima diri sendiri, persahabatan, dan kepercayaan diri.",
+        "language": "Indonesian",
+        "book_link": "https://heyzine.com/flip-book/9322b7495b.html"
+        },
+        {
+        "id": 16,
+        "title": "Emosi Coco yang Berwarna-Warni",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "id-coco.jpg",
+        "synopsis": "Coco si bunglon merasakan berbagai emosi seperti senang, marah, takut, dan sedih saat menjelajahi hutan. Bersama teman-temannya dan kepercayaan kepada Allah, Coco belajar memahami dan mengelola perasaannya. Perjalanan penuh warna tentang emosi, iman, dan persahabatan.",
+        "language": "Indonesian",
+        "book_link": "https://heyzine.com/flip-book/dac3aa41c6.html"
+        },
+        {
+        "id": 17,
+        "title": "Leo Singa yang Sombong",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "id-lion.jpg",
+        "synopsis": "Leo si singa sombong suka membanggakan diri dan menakuti hewan lain. Ketika Ruby si kelinci cerdas menantangnya bermain petak umpet, Leo belajar bahwa kecerdasan dan kebaikan lebih penting dari kesombongan. Cerita seru yang mengajarkan rendah hati dan makna kebesaran sejati.",
+        "language": "Indonesian",
+        "book_link": "https://heyzine.com/flip-book/d155f42545.html"
+        },
+        {
+        "id": 18,
+        "title": "Monyet yang Tidak Bersyukur",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "id-monkey.jpg",
+        "synopsis": "Milo bosan makan pisang setiap hari hingga badai menghancurkan pohon pisang. Ia pun menyadari betapa ia kurang bersyukur. Dengan menanam pohon baru dan merenung, Milo belajar menghargai nikmat dari Allah. Kisah penuh makna tentang syukur dan kebahagiaan.",
+        "language": "Indonesian",
+        "book_link": "https://heyzine.com/flip-book/977b9faf8a.html"
+        },
+        {
+        "id": 19,
+        "title": "Selendang Ruby yang Hilang",
+        "author": "Aliya, Farwizah, Rajihah",
+        "img": "id-scarf.jpg",
+        "synopsis": "Ruby si kelinci kehilangan syal merah kesayangannya dan merasa sedih. Bersama Tia si kura-kura dan Omar si burung hantu, mereka mencari sambil belajar tentang kesabaran, tawakal kepada Allah, dan indahnya persahabatan. Cerita lembut yang penuh harapan dan hikmah.",
+        "language": "Indonesian",
+        "book_link": "https://heyzine.com/flip-book/fc6df56b31.html"
+        },
+        {
+        "id": 20,
+        "title": "بيني والقوة في داخله",
+        "author": "بقلم علياء، فرويزة، راجحه",
+        "img": "ar-bear.jpg",
+        "synopsis": "يشعر بيني الدب بالخجل من حجمه الكبير ووجهه الجاد لكن بمساعدة صديقه ميلو القرد وأصدقائه الآخرين يكتشف بيني أن ما يميزه هو مصدر قوته قصة دافئة عن قبول الذات والصداقة والثقة بالنفس",
+        "language": "Arabic",
+        "book_link": "https://heyzine.com/flip-book/4e63f860b6.html"
+        },
+        {
+        "id": 21,
+        "title": "مشاعر كوكو الملونة",
+        "author": "بقلم علياء، فرويزة، راجحه",
+        "img": "ar-coco.jpg",
+        "synopsis": "كوكو الحرباء يمر بمشاعر مختلفة أثناء تجواله في الغابة بمساعدة أصدقائه وثقته بالله يتعلم كوكو كيف يفهم مشاعره ويتعامل معها رحلة مليئة بالألوان تعلم الأطفال عن العاطفة والإيمان والصداقة",
+        "language": "Arabic",
+        "book_link": "https://heyzine.com/flip-book/04d11cbc7d.html"
+        },
+        {
+        "id": 22,
+        "title": "ليو الأسد المغرور",
+        "author": "بقلم علياء، فرويزة، راجحه",
+        "img": "ar-lion.jpg",
+        "synopsis": "ليو أسد قوي لكنه مغرور ويخيف الحيوانات الأخرى عندما تتحداه الأرنبة الذكية روبي في لعبة الغميضة يتعلم ليو أن التواضع واللطف هما مفتاح العظمة الحقيقية قصة ممتعة مليئة بالحكمة",
+        "language": "Arabic",
+        "book_link": "https://heyzine.com/flip-book/f87bd0371e.html"
+        },
+        {
+        "id": 23,
+        "title": "وشاح روبي المفقود",
+        "author": "بقلم علياء، فرويزة، راجحه",
+        "img": "ar-scarf.jpg",
+        "synopsis": "تفقد روبي الأرنب وشاحها الأحمر المفضل وتصبح حزينة بمساعدة صديقتها تيا السلحفاة وعمر البومة يتعلمون دروسًا عن الصبر والتوكل على الله وقيمة الصداقة قصة رقيقة ومليئة بالأمل",
+        "language": "Arabic",
+        "book_link": "https://heyzine.com/flip-book/f6a7f967bc.html"
+        },
+        {
+        "id": 24,
+        "title": "القرد غير الشاكر",
+        "author": "بقلم علياء، فرويزة، راجحه",
+        "img": "ar-monkey.jpg",
+        "synopsis": "يشكو ميلو القرد من تناول الموز كل يوم حتى تأتي عاصفة وتدمر أشجار الموز عندها يدرك ميلو قيمة النعم التي كان يتجاهلها يتعلم الشكر من خلال زراعة الأشجار والتأمل في جمال الغابة",
+        "language": "Arabic",
+        "book_link": "https://heyzine.com/flip-book/597fcfc96e.html"
+        },
+        {
+        "id": 25,
+        "title": "ベニーと内なるちから",
+        "author": "作:アリヤ、ファルウィザ、ラジハ",
+        "img": "jp-bear.jpg",
+        "synopsis": "ベニーは自分の大きな体と怖そうな顔に自信がなく、恥ずかしく思っていました。でも、サルのミロや友だちの応援で、自分の違いが強さだと気づきます。自己受容と友情のあたたかい物語です。",
+        "language": "Japanese",
+        "book_link": ""
+        },
+        {
+        "id": 26,
+        "title": "うぬぼれライオンのレオ",
+        "author": "作:アリヤ、ファルウィザ、ラジハ",
+        "img": "jp-lion.jpg",
+        "synopsis": "自分ばかり自慢するレオは、ほかの動物たちを怖がらせていました。ある日、かしこいウサギのルビーがかくれんぼを提案し、レオは大切なことを学びます。ほんとうの強さとは、やさしさと謙虚さなのです。",
+        "language": "Japanese",
+        "book_link": ""
+        },
+        {
+        "id": 27,
+        "title": "ココのカラフルなきもち",
+        "author": "作:アリヤ、ファルウィザ、ラジハ",
+        "img": "jp-coco.jpg",
+        "synopsis": "カメレオンのココは、ジャングルを探検しながら、いろんな気持ちを感じます。喜び、怒り、悲しみ、不安。友だちとアッラーへの信頼を通して、感情の扱い方を学んでいきます。心あたたまる感情の旅です。",
+        "language": "Japanese",
+        "book_link": ""
+        },
+        {
+        "id": 28,
+        "title": "感謝を知らなかったミロ",
+        "author": "作:アリヤ、ファルウィザ、ラジハ",
+        "img": "jp-monkey.jpg",
+        "synopsis": "毎日バナナばかりで退屈なミロ。しかしある嵐の夜、バナナの木が倒れてしまい、ミロは大切なことに気づきます。アッラーの恵みに感謝することの大切さを学ぶ、教訓あふれるお話です。",
+        "language": "Japanese",
+        "book_link": ""
+        },
+        {
+        "id": 29,
+        "title": "ルビーのなくしたスカーフ",
+        "author": "作:アリヤ、ファルウィザ、ラジハ",
+        "img": "jp-scarf.jpg",
+        "synopsis": "大好きな赤いスカーフをなくして悲しむウサギのルビー。カメのティアとフクロウのオマールと一緒に探す旅は、サブール（がまん）とアッラーへの信頼、そして友情の大切さを教えてくれ",
+        "language": "Japanese",
+        "book_link": ""
+        }
+    ]
