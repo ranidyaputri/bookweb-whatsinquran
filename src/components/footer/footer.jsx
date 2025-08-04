@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
     <div id="footer-section">
-        <div className="bg-[#33187A] text-white px-[40px] md:px-[80px] py-[86px] rounded-t-[50px] mt-[70px] md:mt-0">
+        <div className="bg-[#33187A] text-white px-[40px] md:px-[80px] py-[86px] rounded-t-[50px] mt-[130px]">
             <div className="footer-text w-full flex flex-col sm:flex-row justify-between sm:items-center">
                 <p className="text-[30px] md:text-[40px] mb-[20px] md:mb-0 font-bold w-[260px]">
                     Contact Us For More Info

@@ -1,5 +1,6 @@
 import React from 'react'
 import datas from '../../../src/data/books.json'
+import { Link } from 'react-router-dom'
 
 function BookCollection() {
   return (
@@ -58,9 +59,9 @@ function BookCollection() {
         {/* book list */}
         <div className="card-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-[20px] mb-[130px]">
           {datas && datas.map(({id, title, img, author}) => (
-            <a href='' className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
+            <Link to={`/book-detail/${id}`} className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
               <figure className="px-[10px] py-[10px]">
-                <img src={`./book-img/${img}`} className="rounded-xl" />
+                <img src={`/book-img/${img}`} className="rounded-xl" />
               </figure>
               <div className="card-body max-sm:p-[8px]">
                 <h2 className="card-title sm:line-clamp-1">{title}</h2>
@@ -68,7 +69,7 @@ function BookCollection() {
                   Author: {author}
                 </p>
               </div>
-            </a>
+            </Link>
           ))
           }
         </div>
