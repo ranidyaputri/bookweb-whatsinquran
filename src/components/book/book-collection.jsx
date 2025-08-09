@@ -66,7 +66,7 @@ function BookCollection() {
               <div className="card-body max-sm:p-[8px]">
                 <h2 className="card-title sm:line-clamp-1">{title}</h2>
                 <p className="book-author text-gray-400">
-                  Author: {author}
+                  {author}
                 </p>
               </div>
             </Link>

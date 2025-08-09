@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import datas from '../../../src/data/books.json'
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 
 function BookDetail() {
     const {id} = useParams();
@@ -15,6 +15,8 @@ function BookDetail() {
         }
     }, [id])
 
+    // navigation
+    const navigate = useNavigate();
 
     return (
         <div className="min-h-fit mx-[20px] md:mx-[60px] mt-[128px] md:mt-[158px] mb-[58px] md:mb-0">
@@ -45,9 +47,12 @@ function BookDetail() {
                             {item.synopsis}
                         </p>
                     </div>
-                    <a href={item.book_link} target="_blank" className="px-[12px] py-[10px] rounded-[10px] font-semibold bg-[#BA84FE] text-white">
-                        Start Reading
-                    </a>
+                    <div className="flex">
+                        <button onClick={() => navigate(-1)} className="btn h-fit mr-2 px-[12px] py-[10px] border-0 rounded-[10px] text-sm md:text-base font-semibold bg-gray-200">Back</button>
+                        <a href={item.book_link} target="_blank" className="px-[12px] py-[10px] rounded-[10px] font-semibold bg-[#BA84FE] text-white">
+                            Start Reading
+                        </a>
+                    </div>
                 </div>
             </div>
             ) : <h1>No item found</h1>}
