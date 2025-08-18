@@ -11,7 +11,7 @@ function Hero() {
                     <p className="mt-[12px] md:mt-[24px] mb-[24px] text-sm md:text-base">
                         From stories to reflections, discover the complete collection of What's in Quran books!
                     </p>
-                    <Link to={`/collection`} onClick={() => window.scrollTo(0, 0)} className="btn px-[12px] py-[10px] border-0 rounded-[10px] font-semibold bg-[#BA84FE] text-white text-sm md:text-base">
+                    <Link to={`/menu`} onClick={() => window.scrollTo(0, 0)} className="btn px-[12px] py-[10px] border-0 rounded-[10px] font-semibold bg-[#BA84FE] text-white text-sm md:text-base">
                         Start Reading
                     </Link>
                 </div>

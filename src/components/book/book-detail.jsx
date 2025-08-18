@@ -20,7 +20,7 @@ function BookDetail() {
 
     return (
         <div className="min-h-fit mx-[20px] md:mx-[60px] mt-[128px] md:mt-[158px] mb-[58px] md:mb-0">
-            <h6 className="font-bold text-[#483D89] text-[24px] md:text-[30px] mb-[30px]">Book Detail</h6>
+            <h6 className="font-bold text-[#33187A] text-[24px] md:text-[30px] mb-[30px]">Book Detail</h6>
             {item ? (
             <div className="flex flex-col md:flex-row md:gap-[115px] items-start">
                 <img src={`/book-img/${item.img}`} className="w-[230px] sm:w-[280px] lg:w-[360px] rounded-[30px]" />

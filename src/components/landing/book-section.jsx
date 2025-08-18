@@ -5,12 +5,12 @@ import datas from '../../../src/data/books.json'
 function Book() {
     return (
     <>
-    <div className="book-section mt-[140px] mx-[20px] md:mx-[60px]">
+    <div className="book-section mt-[80px] lg:mt-[140px] mx-[20px] md:mx-[60px]">
         <div className="book-preview mb-[140px]">
             {/* title */}
             <div className="flex flex-col md:flex-row justify-center md:justify-between md:items-center mb-[54px]">
                 <div className="title md:w-[527px]">
-                    <h4 className="font-extrabold text-[26px] md:text-[30px] text-[#33187A] mb-[18px]">
+                    <h4 className="font-bold text-[26px] md:text-[30px] text-[#33187A] mb-[18px]">
                         Explore the wisdom in every page
                     </h4>
                     <p className="mb-[18px] md:mb-0 text-sm md:text-base">
@@ -18,7 +18,7 @@ function Book() {
                     </p>
                 </div>
                 <div className="">
-                    <Link to={`/collection`} onClick={() => window.scrollTo(0, 0)} className="btn px-[12px] py-[10px] border-0 rounded-[10px] font-semibold bg-[#BA84FE] text-white text-sm md:text-base">
+                    <Link to={`/menu`} onClick={() => window.scrollTo(0, 0)} className="btn px-[12px] py-[10px] border-0 rounded-[10px] font-semibold bg-[#BA84FE] text-white text-sm md:text-base">
                         Browse All
                     </Link>
                 </div>
@@ -28,11 +28,11 @@ function Book() {
             <div className="card-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-[20px]">
                 {datas && datas.slice(0,4).map(({id, title, author, img}) =>
                 (
-                    <Link to={`/book-detail/${id}`} className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
+                    <Link to={`/book-detail/${id}`} onClick={() => window.scrollTo(0, 0)} className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
                         <figure className="px-[10px] py-[10px]">
                             <img src={`./book-img/${img}`} className="rounded-xl" />
                         </figure>
-                        <div className="card-body max-sm:p-[8px]">
+                        <div className="card-body max-sm:p-[10px]">
                             <h2 className="card-title sm:line-clamp-1">{title}</h2>
                             <p className="book-author text-gray-400">
                                 {author}

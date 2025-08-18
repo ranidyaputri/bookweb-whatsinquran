@@ -16,7 +16,7 @@ function Navbar() {
                         <Link to={`/`} onClick={() => window.scrollTo(0, 0)}>Home</Link>
                     </li>
                     <li>
-                        <Link to='/collection' onClick={() => window.scrollTo(0, 0)}>Collection</Link>
+                        <Link to={'/menu'} onClick={() => window.scrollTo(0, 0)}>Collection</Link>
                     </li>
                     <li className="block sm:hidden">
                         <a href='#footer-section'>Contact</a>
@@ -31,7 +31,7 @@ function Navbar() {
                     <Link to={`/`} onClick={() => window.scrollTo(0, 0)}>Home</Link>
                 </li>
                 <li>
-                    <Link to='/collection' onClick={() => window.scrollTo(0, 0)}>Collection</Link>
+                    <Link to={'/menu'} onClick={() => window.scrollTo(0, 0)}>Collection</Link>
                 </li>
                 <li>
                     <a href="#footer-section" className="border-[#BA84FE] text-[#BA84FE] rounded-xl font-bold border-1 px-[12px] py-[8px] hover:bg-[#BA84FE] hover:text-white">
