@@ -9,7 +9,7 @@ function Hero() {
                 <div className="hero-text text-white md:w-[448px]">
                     <h1 className="font-bold text-[30px] lg:text-[50px] mt-[30px] md:mt-0">Flip Through Faith</h1>
                     <p className="mt-[12px] md:mt-[24px] mb-[24px] text-sm md:text-base">
-                        From stories to reflections, discover the complete collection of What's in Quran books!
+                        Read, reflect, and connect with the Qur’an through our full collection of books for every age.
                     </p>
                     <Link to={`/menu`} onClick={() => window.scrollTo(0, 0)} className="btn px-[12px] py-[10px] border-0 rounded-[10px] font-semibold bg-[#BA84FE] text-white text-sm md:text-base">
                         Start Reading
