@@ -51,7 +51,7 @@
         "author": "Aliya, Farwizah, Rajihah",
         "img": "my-bear.jpg",
         "synopsis": "Benny si beruang berasa rendah diri kerana saiznya yang besar dan wajahnya yang serius. Namun dengan sokongan Milo si monyet dan rakan-rakan lain, Benny belajar bahawa keunikannya adalah kekuatannya. Kisah menyentuh tentang penerimaan diri dan persahabatan sejati.",
-        "language": "Malaysian",
+        "language": "Malay",
         "book_link": "https://heyzine.com/flip-book/7900001d95.html"
         },
         {
@@ -60,7 +60,7 @@
         "author": "Aliya, Farwizah, Rajihah",
         "img": "my-coco.jpg",
         "synopsis": "Coco si sesumpah merasai pelbagai emosi semasa meneroka hutan. Dengan bantuan rakan-rakan dan kebergantungan kepada Allah, Coco belajar mengenali dan mengurus emosinya. Perjalanan berwarna-warni yang mengajar tentang perasaan, iman, dan sokongan rakan.",
-        "language": "Malaysian",
+        "language": "Malay",
         "book_link": "https://heyzine.com/flip-book/f0c968c3aa.html"
         },
         {
@@ -69,7 +69,7 @@
         "author": "Aliya, Farwizah, Rajihah",
         "img": "my-lion.jpg",
         "synopsis": "Leo si singa sering membangga diri dan menakutkan haiwan lain. Ruby si arnab bijak mencabarnya bermain sorok-sorok. Dalam permainan itu, Leo belajar bahawa kebijaksanaan dan kebaikan lebih bermakna daripada kesombongan. Kisah lucu dengan pengajaran tentang rendah hati.",
-        "language": "Malaysian",
+        "language": "Malay",
         "book_link": "https://heyzine.com/flip-book/9d668a28c5.html"
         },
         {
@@ -78,7 +78,7 @@
         "author": "Aliya, Farwizah, Rajihah",
         "img": "my-monkey.jpg",
         "synopsis": "Milo jemu makan pisang setiap hari, sehingga ribut melanda dan memusnahkan pokok pisang. Milo mula sedar betapa dia kurang bersyukur. Dia menanam pokok baru dan belajar menghargai nikmat dari Allah. Cerita tentang syukur, keinsafan, dan kebahagiaan.",
-        "language": "Malaysian",
+        "language": "Malay",
         "book_link": "https://heyzine.com/flip-book/18726aa8ad.html"
         },
         {
@@ -87,7 +87,7 @@
         "author": "Aliya, Farwizah, Rajihah",
         "img": "my-scarf.jpg",
         "synopsis": "Ruby si arnab kehilangan skaf merah kesayangannya dan berasa sedih. Bersama Tia si kura-kura dan Omar si burung hantu, mereka mencari sambil belajar tentang sabar, tawakal, dan pentingnya persahabatan. Kisah yang lembut dan penuh pengajaran.",
-        "language": "Malaysian",
+        "language": "Malay",
         "book_link": "https://heyzine.com/flip-book/4a0f8a9216.html"
         },
         {
@@ -224,5 +224,50 @@
         "synopsis": "大好きな赤いスカーフをなくして悲しむウサギのルビー。カメのティアとフクロウのオマールと一緒に探す旅は、サブール（がまん）とアッラーへの信頼、そして友情の大切さを教えてくれ",
         "language": "Japanese",
         "book_link": "https://heyzine.com/flip-book/6ecd8ace8d.html"
+        },
+        {
+        "id": 30,
+        "title": "Ramadan Diaries by Kitty",
+        "author": "Siti Nur Aliya",
+        "img": "eng-kitty.jpg",
+        "synopsis": "Join Kitty on a heartwarming Ramadan journey, from early sahoor mornings to peaceful Qur'an reading, fun surprises with friends, and preparing for Eid. This story shows the joy, kindness, and blessings of this special month.",
+        "language": "English",
+        "book_link": "https://heyzine.com/flip-book/4ebd4c2ff6.html"
+        },
+        {
+        "id": 31,
+        "title": "Ramadan Diari oleh Kitty",
+        "author": "Siti Nur Aliya",
+        "img": "my-kitty.jpg",
+        "synopsis": "Ikuti perjalanan Ramadan bersama Kitty, bermula dari sahur waktu pagi, bacaan al-Qur'an yang menenangkan, kejutan menyeronokkan bersama rakan, hingga persiapan menyambut Aidilfitri. Kisah ini dipenuhi kebaikan, kegembiraan, dan keberkatan Ramadan.",
+        "language": "Malay",
+        "book_link": "https://heyzine.com/flip-book/0ba8e60f0f.html"
+        },
+        {
+        "id": 32,
+        "title": "Ramadan Buku Harian oleh Kitty",
+        "author": "Siti Nur Aliya",
+        "img": "id-kitty.jpg",
+        "synopsis": "Ikuti perjalanan Ramadan bersama Kitty, dari sahur pagi yang penuh semangat, membaca Al-Qur'an dengan tenang, kejutan menyenangkan bersama teman, hingga persiapan menyambut Idulfitri. Cerita ini penuh kebaikan, kebersamaan, dan berkah Ramadan.",
+        "language": "Indonesian",
+        "book_link": "https://heyzine.com/flip-book/07e038a9f2.html"
+        },
+        {
+        "id": 33,
+        "title": "رمضان يوميات كيتي",
+        "author": "سيتي نور علياء",
+        "img": "ar-kitty.jpg",
+        "synopsis": "انضموا إلى كيتي في رحلتها الجميلة في رمضان، من السحور في الصباح الباكر إلى قراءة القرآن بهدوء، والمفاجآت الممتعة مع الأصدقاء، والاستعداد للعيد. قصة مليئة بالفرح والرحمة وبركة هذا الشهر المبارك",
+        "language": "Arabic",
+        "book_link": "https://heyzine.com/flip-book/ab78bef8a2.html"
+        },
+        {
+        "id": 34,
+        "title": "ラマダン きてぃ の にっき",
+        "author": "シティ・ヌル・アリヤ",
+        "img": "jp-kitty.jpg",
+        "synopsis": "ラマダンのあさの さほーるから、しずかな コーランよみ、ともだちとの たのしい サプライズ、そして イードの じゅんびまで。きてぃと いっしょに、よろこびと やさしさと ラマダンの しあわせを みつけましょう。",
+        "language": "Japanese",
+        "book_link": ""
         }
     ]

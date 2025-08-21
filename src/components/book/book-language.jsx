@@ -5,7 +5,7 @@ import datas from "../../../src/data/books.json";
 function BookLanguage() {
     const language = [
         { code: "en", name: "English", img: "united-kingdom.png"},
-        { code: "my", name: "Malaysian", img: "malaysia.png"},
+        { code: "my", name: "Malay", img: "malaysia.png"},
         { code: "id", name: "Indonesian", img: "indonesia.png"},
         { code: "ar", name: "Arabic", img: "saudi-arabia.png"},
         { code: "jp", name: "Japanese", img: "japan.png"},

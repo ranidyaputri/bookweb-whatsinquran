@@ -25,6 +25,12 @@ function BookDetail() {
             <div className="flex flex-col md:flex-row md:gap-[115px] items-start">
                 <img src={`/book-img/${item.img}`} className="w-[230px] sm:w-[280px] lg:w-[360px] rounded-[30px]" />
                 <div className="book-info lg:w-[550px] text-sm md:text-base">
+                    {/* conditional */}
+                    <div class={` ${item.book_link ? "hidden" : ""} badge bg-blue-400 p-[10px] rounded-[10px] text-white mb-4`}>
+                        <svg class="size-[1em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor" stroke-linejoin="miter" stroke-linecap="butt"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"></circle><path d="m12,17v-5.5c0-.276-.224-.5-.5-.5h-1.5" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"></path><circle cx="12" cy="7.25" r="1.25" fill="currentColor" stroke-width="2"></circle></g></svg>
+                        Book Link is Coming Soon
+                    </div>
+                    
                     <h6 className="book-title font-bold mb-[18px] text-[28px] md:text-[40px] mt-[26px] md:mt-0">
                         {item.title}
                     </h6>
@@ -47,9 +53,9 @@ function BookDetail() {
                             {item.synopsis}
                         </p>
                     </div>
-                    <div className="flex">
+                    <div className="flex items-center">
                         <button onClick={() => navigate(-1)} className="btn h-fit mr-2 px-[12px] py-[10px] border-0 rounded-[10px] text-sm md:text-base font-semibold bg-gray-200">Back</button>
-                        <a href={item.book_link} target="_blank" className="px-[12px] py-[10px] rounded-[10px] font-semibold bg-[#BA84FE] text-white">
+                        <a href={item.book_link} target="_blank" className={` ${item.book_link ? "" : "hidden"} px-[12px] py-[10px] rounded-[10px] font-semibold bg-[#BA84FE] text-white`}>
                             Start Reading
                         </a>
                     </div>
