@@ -53,11 +53,11 @@ function BookCollection() {
         <div className="card-list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-[20px] mb-[130px]">
           {filteredBooks.length > 0 ? (
             filteredBooks.map(({id, title, img, author}) => (
-              <Link to={`/book-detail/${id}`} onClick={() => window.scrollTo(0, 0)} className="card max-sm:card-side bg-white w-fit shadow-sm rounded-[22px] hover:bg-accent">
-                <figure className="px-[10px] py-[10px]">
-                  <img src={`/book-img/${img}`} className="rounded-xl" />
+              <Link to={`/book-detail/${id}`} onClick={() => window.scrollTo(0, 0)} className="card max-sm:flex-row bg-white w-full lg:w-fit shadow-sm rounded-[22px] hover:bg-accent">
+                <figure className="px-[10px] py-[10px] flex-none">
+                  <img src={`/book-img/${img}`} className="rounded-xl max-sm:max-w-[120px] object-cover" />
                 </figure>
-                <div className="card-body max-sm:p-[10px]">
+                <div className="card-body max-sm:p-[10px] flex-initial">
                   <h2 className="card-title sm:line-clamp-1">{title}</h2>
                   <p className="book-author text-gray-400">
                     {author}
