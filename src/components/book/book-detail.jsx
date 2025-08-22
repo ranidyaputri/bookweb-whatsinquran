@@ -22,10 +22,10 @@ function BookDetail() {
         <div className="min-h-fit mx-[20px] md:mx-[60px] mt-[128px] md:mt-[158px] mb-[58px] md:mb-0">
             <h6 className="font-bold text-[#33187A] text-[24px] md:text-[30px] mb-[30px]">Book Detail</h6>
             {item ? (
-            <div className="flex flex-col md:flex-row md:gap-[115px] items-start">
+            <div className="flex flex-col md:flex-row md:gap-[80px] lg:gap-[115px] items-start">
                 <img src={`/book-img/${item.img}`} className="w-[230px] sm:w-[280px] lg:w-[360px] rounded-[30px]" />
                 <div className="book-info lg:w-[550px] text-sm md:text-base">
-                    {/* conditional */}
+                    {/* book link */}
                     <div class={` ${item.book_link ? "hidden" : ""} badge bg-blue-400 p-[10px] rounded-[10px] text-white mb-2 max-md:mt-[26px]`}>
                         <svg class="size-[1em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="currentColor" stroke-linejoin="miter" stroke-linecap="butt"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"></circle><path d="m12,17v-5.5c0-.276-.224-.5-.5-.5h-1.5" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"></path><circle cx="12" cy="7.25" r="1.25" fill="currentColor" stroke-width="2"></circle></g></svg>
                         Book Link is Coming Soon
@@ -34,11 +34,17 @@ function BookDetail() {
                     <h6 className="book-title font-bold mb-[18px] text-[28px] md:text-[40px] mt-[26px] md:mt-0">
                         {item.title}
                     </h6>
-                    <div className="book-detail flex mb-[26px] text-sm md:text-base">
-                        <div className="book-author mr-[40px]">
+                    <div className="book-detail flex mb-[26px] text-sm md:text-base gap-[30px]">
+                        <div className="book-author">
                             <p className="text-gray-400 mb-2">Author(s)</p>
                             <p className="">
                                 {item.author}
+                            </p>
+                        </div>
+                        <div className={`${!item.translator ? "hidden" : "block"}`}>
+                            <p className="text-gray-400 mb-2">Translator</p>
+                            <p className="">
+                                {item.translator}
                             </p>
                         </div>
                         <div className="book-lang">
