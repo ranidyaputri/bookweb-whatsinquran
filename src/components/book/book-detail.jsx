@@ -47,6 +47,12 @@ function BookDetail() {
                                 {item.translator}
                             </p>
                         </div>
+                        <div className={`${!item.illustrator ? "hidden" : "block"}`}>
+                            <p className="text-gray-400 mb-2">Illustrator</p>
+                            <p className="">
+                                {item.illustrator}
+                            </p>
+                        </div>
                         <div className="book-lang">
                             <p className="text-gray-400 mb-2">Language</p>
                             <p className="">
